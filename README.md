@@ -1,10 +1,11 @@
 # Do-Or-Die: LLM-Driven Context-Aware Health Monitoring for Resource-Constrained Edge Devices
 An LLM-driven, context-aware framework for real-time multivariate telemetry health monitoring and model orchestration on resource-constrained edge devices.
 
-[![MDPI Electronics](https://shields.io)](https://mdpi.com)
-[![DOI:10.3390/electronics15163579](https://shields.io)](https://doi.org)
-[![Zenodo Dataset](https://shields.io)](https://zenodo.org)
-[![License: MIT](https://shields.io)](https://github.com/ioatzi/llm-edge-health-monitoring/blob/main/LICENSE)
+[MDPI Electronics](https://mdpi.com)
+
+[Zenodo Dataset](https://zenodo.org)
+
+[License: MIT](https://github.com/ioatzi/llm-edge-health-monitoring/blob/main/LICENSE)
 
 Official implementation, evaluation configurations, and orchestration pipelines for the **Do-Or-Die** framework, originally published in **MDPI Electronics (Special Issue: Energy Efficient Computer Architecture for Edge Computing)**.
 ---
