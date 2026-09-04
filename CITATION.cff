@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you find our code, dataset, or dual-stage LLM framework helpful, please cite our MDPI Electronics paper and the Zenodo asset."
+authors:
+  - family-names: "Tzitzios"
+    given-names: "Ioannis"
+    affiliation: "International Hellenic University"
+  - family-names: "Dimara"
+    given-names: "Asimina"
+    affiliation: "Democritus University of Thrace"
+  - family-names: "Petridou"
+    given-names: "Georgiana"
+    affiliation: "University of Macedonia"
+  - family-names: "Kostavelis"
+    given-names: "Ioannis"
+    affiliation: "International Hellenic University"
+  - family-names: "Krinidis"
+    given-names: "Stelios"
+    affiliation: "Democritus University of Thrace"
+title: "LLM-Driven Context-Aware Health Monitoring for Resource-Constrained Edge Devices (Do-Or-Die)"
+version: "1.0.0"
+doi: "10.3390/electronics15163579"
+date-released: 2026-08-12
+url: "https://github.com"
