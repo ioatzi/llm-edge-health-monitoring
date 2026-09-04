@@ -3,7 +3,7 @@ An LLM-driven, context-aware framework for real-time multivariate telemetry heal
 
 [MDPI Electronics](https://mdpi.com)
 
-[Zenodo Dataset]([https://zenodo.org](https://zenodo.org/records/20639458))
+[Zenodo Dataset]([https://zenodo.org](https://zenodo.org/records/20639458)
 
 [License: MIT](https://github.com/ioatzi/llm-edge-health-monitoring/blob/main/LICENSE)
 
