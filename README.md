@@ -1,7 +1,5 @@
-# llm-edge-health-monitoring
-An LLM-driven, context-aware framework for real-time multivariate telemetry health monitoring and model orchestration on resource-constrained edge devices.
-
 # Do-Or-Die: LLM-Driven Context-Aware Health Monitoring for Resource-Constrained Edge Devices
+An LLM-driven, context-aware framework for real-time multivariate telemetry health monitoring and model orchestration on resource-constrained edge devices.
 
 [![MDPI Electronics](https://shields.io)](https://mdpi.com)
 [![DOI:10.3390/electronics15163579](https://shields.io)](https://doi.org)
