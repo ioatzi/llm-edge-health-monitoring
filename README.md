@@ -6,7 +6,7 @@ An LLM-driven, context-aware framework for real-time multivariate telemetry heal
 [![MDPI Electronics](https://shields.io)](https://www.mdpi.com/2079-9292/15/16/3579)
 [![DOI:10.3390/electronics15163579](https://shields.io)](https://doi.org/10.3390/electronics15163579)
 [![Zenodo Dataset](https://shields.io)](https://zenodo.org/records/20639458)
-[![License: MIT](https://shields.io)](https://opensource.org)
+[![License: MIT](https://shields.io)]([https://opensource.org](https://github.com/ioatzi/llm-edge-health-monitoring/blob/main/LICENSE))
 
 Official implementation, evaluation configurations, and orchestration pipelines for the **Do-Or-Die** framework, originally published in **MDPI Electronics (Special Issue: Energy Efficient Computer Architecture for Edge Computing)**.
 
