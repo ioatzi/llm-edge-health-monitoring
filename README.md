@@ -1,7 +1,7 @@
 # Do-Or-Die: LLM-Driven Context-Aware Health Monitoring for Resource-Constrained Edge Devices
 An LLM-driven, context-aware framework for real-time multivariate telemetry health monitoring and model orchestration on resource-constrained edge devices.
 
-[MDPI Electronics](https://mdpi.com)
+[MDPI Electronics](https://www.mdpi.com/2079-9292/15/16/3579)
 
 [Zenodo Dataset](https://zenodo.org/records/20639458)
 
