@@ -9,7 +9,11 @@ An LLM-driven, context-aware framework for real-time multivariate telemetry heal
 [![License: MIT](https://shields.io)](https://github.com/ioatzi/llm-edge-health-monitoring/blob/main/LICENSE)
 
 Official implementation, evaluation configurations, and orchestration pipelines for the **Do-Or-Die** framework, originally published in **MDPI Electronics (Special Issue: Energy Efficient Computer Architecture for Edge Computing)**.
+---
 
+## 🚀 Framework Architecture
+
+![Do-Or-Die Dual-Stage LLM Orchestration Framework](architecture_diagram.png)
 ---
 
 ## 📑 Citations
@@ -50,46 +54,6 @@ DOI = {10.3390/electronics15163579}
 
 1. **Stage 1 (Semantic Forecaster):** Analyzes multidimensional device health vectors (\(H_t\)) to estimate semantic health steps (9-levels: `SAFE` to `SOS`) 5 minutes into the future.
 2. **Stage 2 (LLM Orchestrator):** Factors in the predicted health state, historical profiles, and user-specified Task Importance Levels (TIL) to dynamically select or toggle candidate local models (`Ridge`, `XGBoost`, `LightGBM`, `CatBoost`) or drop into emergency caching modes.
-
----
-
-## 🛠️ Repository Layout
-```text
-├── data/                  # Zenodo processing pipes
-│   └── telemetry_raw/     # Dynamic target folder for downloaded CSV records
-├── src/
-│   ├── sensing/           # vcgencmd, htop, and metric stream collection
-│   ├── mapping/           # 9-Level semantic matrix representation parser
-│   ├── forecasting/       # Remote Ollama REST client for Stage 1 reasoning
-│   ├── orchestrator/      # Task Importance (TIL) handler for Stage 2 switches
-│   └── models/            # Native model execution pool (Ridge, XGBoost, CatBoost)
-├── scripts/
-│   └── download_data.py   # Automated Zenodo API dataset bootstrapper
-├── pyproject.toml         # Explicit tool configurations
-└── requirements.txt       # Hardened dependency definitions
-```
-
----
-
-## ⚡ Quick Start & Verification
-
-### 1. Project Ingestion
-```bash
-git clone https://github.com
-cd Do-Or-Die-Edge-LLM
-pip install -r requirements.txt
-```
-
-### 2. Fetch the Zenodo Telemetry Production Dataset
-Instead of manually copying data blocks, execute the automated asset collection pipeline to fetch the ~1.3 million historical CSV telemetry rows directly:
-```bash
-python scripts/download_data.py
-```
-
-### 3. Run the Adaptive Orchestration Engine
-```bash
-python src/main.py --til MEDIUM --llm_endpoint http://YOUR_REMOTE_OLLAMA_IP:11434
-```
 
 ---
 
