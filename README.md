@@ -13,7 +13,7 @@ Official implementation, evaluation configurations, and orchestration pipelines 
 
 ## 🚀 Framework Architecture
 
-![Do-Or-Die Dual-Stage LLM Orchestration Framework](architecture_diagram.png)
+![Do-Or-Die Dual-Stage LLM Orchestration Framework](system_architecture_final.jpg)
 ---
 
 ## 📑 Citations
